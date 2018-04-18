@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addsong"
+        android:title="Add Song" />
+    <item
+        android:id="@+id/delsong"
+        android:title="Delete Song">
+        <menu >
+            <group android:id="@+id/group2" android:checkableBehavior="single">
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exitapp"
+        android:title="Exit Application" />
+</menu>

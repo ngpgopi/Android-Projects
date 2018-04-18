@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gkn.squad.mainapplicationfragment.MainActivity"
+    android:background="@drawable/chicago2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="0dp"
+        android:padding="5dp"
+        android:text="Attractions"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="41dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:text="Restaurants" />
+
+</RelativeLayout>

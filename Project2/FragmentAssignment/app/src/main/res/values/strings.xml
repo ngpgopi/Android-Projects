@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Fragment Application</string>
+
+    <string-array name="places">
+        <item>TILT!</item>
+        <item>Navy Pier</item>
+        <item>Millenium Park</item>
+        <item>Shedd Aquarium</item>
+        <item>Lincon Park Zoo</item>
+        <item>Museum of Science and Industry</item>
+        <item>Sky Deck</item>
+        <item>The Field Museum</item>
+        <item>Adler Planetarium</item>
+        <item>Wrigley Field</item>
+    </string-array>
+
+    <string-array name="placeDetails">
+        <item>http://www.360chicago.com</item>
+        <item>https://navypier.org</item>
+        <item>https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://www.sheddaquarium.org/</item>
+        <item>https://www.lpzoo.org/</item>
+        <item>https://www.msichicago.org/</item>
+        <item>http://theskydeck.com/</item>
+        <item>https://www.fieldmuseum.org/</item>
+        <item>https://www.adlerplanetarium.org</item>
+        <item>https://www.mlb.com/cubs/ballpark/</item>
+    </string-array>
+
+
+    <string-array name="restaurants">
+        <item>EL ideas</item>
+        <item>The Rosebud</item>
+        <item>Monteverde Restaurant and Pastificio</item>
+        <item>Oriole</item>
+        <item>Girl and The Goat</item>
+        <item>Piccolo Sogno</item>
+    </string-array>
+
+    <string-array name="restaurantDetails">
+        <item>http://www.elideas.com</item>
+        <item>http://www.rosebudrestaurants.com</item>
+        <item>http://monteverdechicago.com/</item>
+        <item>http://www.oriolechicago.com</item>
+        <item>http://www.girlandthegoat.com/</item>
+        <item>https://www.piccolosognorestaurant.com/</item>
+    </string-array>
+
+
+</resources>
