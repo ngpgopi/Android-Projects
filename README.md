@@ -1,9 +1,9 @@
 # Android Projects
 There are three projects in this repository.
 
-A simple song playlist Application(Adapters)
-Chicago guide(Fragments)
-A simple no-user Game(Threads)
+1) A simple song playlist Application(Main Goal: Learn to understand Adapters)
+2) Chicago guide(Main Goal: Learn to understand Fragments)
+3) A simple no-user Game(Main Goal: Learn to understand Threads)
 
 # Project 1:
 
