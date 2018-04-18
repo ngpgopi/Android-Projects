@@ -1,9 +1,11 @@
+# Android Projects
 There are three projects in this repository.
 
 A simple song playlist Application(Adapters)
 Chicago guide(Fragments)
 A simple no-user Game(Threads)
-Project 1:
+
+# Project 1:
 
 The main activity in the app displays a list of songs from various artists. When the user clicks on a list item, the main activity is stopped, and a new activity containing a WebView is displayed instead. The web view shows a page with a publicly available video segment, such as a YouTube video, playing the song. By clicking a play button on the view, the device user can watch the video and listen to the song. A user would return to the main activity by pressing the device’s “back” soft key, e.g., when the video clip is complete.
 
@@ -11,7 +13,7 @@ In addition, the main activity displays an options menu. The options menu suppor
 
 Finally, each list item supports “long click” functionality. A long click on any list item will bring up a “context menu” showing the following three options for the song under consideration: (1) View the video clip (similar to a simple click); (2) View the song’s wikipedia page in the second activity; and (3) View the artist (or band) wikipedia page in the second activity.
 
-Project 2:
+# Project 2:
 
 Two new Android apps meant to work together on an Android phone or tablet running version 7.1, Nougat. The first app helps visitors in Chicago decide on points of interest in the city. The second app has specific information about the points of interest.
 
@@ -23,7 +25,7 @@ When the device is in portrait mode the two fragments are displayed on different
 
 Finally, the state of application A2 would be retained across device reconfigurations, e.g., when the device is switched from landscape to portrait mode and vice versa. This means that the selected list item (in the first fragment) and the page displayed in the second fragment will be kept during configuration changes.
 
-Project 3:
+# Project 3:
 
 The layout of Microgolf consists of 50 “holes” arranged in a vertical line. One of the holes is randomly designated by the UI thread as the winning hole. Two worker threads take turns shooting a virtual ball into a hole of their choosing. The first thread to shoot its ball into the winning hole wins the game. Here are additional details on this game. The 50 holes are partitioned into 5 “hole groups”. Each group contains 10 adjacent holes. Whenever one of the two player threads shoots a ball into a hole, the game system provides one of four possible responses:
 
